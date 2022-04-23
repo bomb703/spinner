@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- site by stas -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Playground in Narva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header" id="header">
+                <a href="#" class="logo">
+                    <h1>Sports playground Narva</h1>
+                </a>
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#map-href">
+                                Map
+                            </a>
+                        </li>
+                        <li>
+                            <a href="rent.html">
+                                Rent
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Co-op
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacts-href">
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <main>
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="slider-item">
+                    <div class="container">
+                        <div class="block-slider">
+                            <h2 class="title title-slider">
+                                Map
+                            </h2>
+                            <p class="descr descr-slider">
+                                A map showing all sports grounds and halls in Narva.
+                            </p>
+                            <div class="btns">
+                                <a class="btns" href="#map-href">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-slider">
+                        <div class="gallery">
+                            <img src="img/slider-map.jpg" alt="map">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="container">
+                        <div class="block-slider">
+                            <h2 class="title title-slider">
+                                Rent
+                            </h2>
+                            <p class="descr descr-slider">
+                                Possibility to rent sports equipment.
+                            </p>
+                            <div class="btns">
+                                <a href="rent.html">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-slider">
+                        <div class="gallery">
+                            <img src="img/equpment-slider.jpg" alt="rent-equpment">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="container">
+                        <div class="block-slider">
+                            <h2 class="title title-slider">
+                                Partner
+                            </h2>
+                            <p class="descr descr-slider">
+                                Search for a partner for joint training in the gym or on the street.
+                            </p>
+                            <div class="btns">
+                                <a href="coop.html">VIEW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-slider">
+                        <div class="gallery">
+                            <img src="img/coop-slider.jpg" alt="co-op">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="descr-block">
+                <div class="descr-text">
+                    <p class="descr descr-text-main">
+                        <span class="strong-text">Heey!</span> Sitting at home and bored, postponing sports until
+                        Monday? It’s uncomfortable to go to the gym alone, you don’t have a bike or roller skates, or
+                        are you looking for a support group for a joint morning run? Then you've come to the right
+                        place. <a href="rent.html" class="link">Here</a> you can rent sports equipment, <a
+                            href="rent.html" class="link">find a training</a>
+                        partner, or maybe a friend :) Also,
+                        for convenience, we have created a <a href="rent.html" class="link">map</a> where you can easily
+                        find gyms and playgrounds and choose
+                        the option that suits you. Do not wait for tomorrow or Monday, take advantage of our
+                        opportunities and start acting!
+                    </p>
+                </div>
+                <div class="descr-img">
+                    <img src="img/main-descr.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="map-section">
+
+            </div>
+        </div>
+    </main>
+
+    <section class="map">
+        <div class="container">
+            <h3 class="title-article" id="map-href">
+                Map
+            </h3>
+            <div id="map"></div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-logo">
+                    <a href="#header">Sport Playground Narva</a>
+                    <p>© Team4 | 2022</p>
+                </div>
+                <div class="footer-info">
+                    <ul class="footer-list">
+                        <li><a href="index.html">Map</a></li>
+                        <li><a href="rent.html">Rent</a></li>
+                        <li><a href="partner.html">Partner</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0Q-rj7SXeloC5W2HQnIIAlP1Sd8k_P_E&callback=initMap&v=weekly"
+        defer></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
