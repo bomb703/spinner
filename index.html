@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sports Playground in Narva</title>
+    <title>Sports Grounds Narva</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -16,46 +16,47 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <header class="header" id="header">
-                <a href="#" class="logo">
-                    <h1>Sports playground Narva</h1>
-                </a>
-                <div class="menu__icon">
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="header-logo">
+                Sports Grounds Narva
+            </a>
+            <div class="header-menu menu">
+                <div class="menu-burger">
                     <span></span>
                 </div>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#map-href">
-                                Map
+                <nav class="menu-body">
+                    <ul class="menu-list">
+                        <li>
+                            <a href="index.html" class="menu-link">
+                                Main
                             </a>
                         </li>
                         <li>
-                            <a href="rent.html">
+                            <a href="rent.html" class="menu-link">
                                 Rent
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                Co-op
+                            <a href="partner.html" class="menu-link">
+                                Partner
                             </a>
                         </li>
                         <li>
-                            <a href="about.html">
+                            <a href="about.html" class="menu-link">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="#contacts-href">
+                            <a href="contacts.html" class="menu-link">
                                 Contacts
                             </a>
                         </li>
                     </ul>
                 </nav>
-            </header>
+            </div>
         </div>
-    </div>
+    </header>
 
     <main>
         <div class="slider">
@@ -170,7 +171,7 @@
         <div class="container">
             <div class="footer-wrapper">
                 <div class="footer-logo">
-                    <a href="#header">Sport Playground Narva</a>
+                    <a href="#header">Sports grounds Narva</a>
                     <p>© Team4 | 2022</p>
                 </div>
                 <div class="footer-info">
@@ -191,6 +192,7 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0Q-rj7SXeloC5W2HQnIIAlP1Sd8k_P_E&callback=initMap&v=weekly"
         defer></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/map.js"></script>
     <script src="js/main.js"></script>
 </body>
 
