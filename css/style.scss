@@ -16,6 +16,7 @@ p {
     font-family: $mf;
     font-size: 17px;
 }
+h1,
 h2,
 h3,
 h4,
@@ -164,6 +165,45 @@ body._lock {
     &-map {
         font-size: 19px;
     }
+    &-products {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
+.products {
+    &-list-block {
+        display: flex;
+        flex-flow: wrap;
+    }
+    &-item {
+        border: 2px solid #313131;
+        display: flex;
+        padding: 30px 65px 30px 20px;
+        transition: box-shadow 0.5s;
+        margin-right: 30px;
+    }
+    &-img {
+        padding-right: 15px;
+    }
+    &-btn {
+        padding: 8px 25px;
+        background-color: $r;
+        border: none;
+        color: #fff;
+        font-weight: 500;
+        transition: background-color 0.3s;
+    }
+    &-btn:hover {
+        background-color: #fff;
+        border: 2px solid $r;
+        padding: 6px 23px;
+        color: #000;
+    }
+    &-item:hover {
+        -webkit-box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 29px 9px rgba(0, 0, 0, 0.2);
+    }
 }
 #map {
     width: 100%;
@@ -241,6 +281,11 @@ body._lock {
     &:hover {
         color: #002f86;
     }
+    &-contacts {
+        color: #000;
+        border-bottom: 3px solid $r;
+        padding-bottom: 5px;
+    }
 }
 
 .footer {
@@ -248,6 +293,7 @@ body._lock {
         min-height: 250px;
         background-color: $r;
         border-top: 3px rgb(218, 218, 218) solid;
+        margin-top: auto;
     }
     &-logo {
         padding-top: 15px;
@@ -281,6 +327,31 @@ body._lock {
     }
     &-info {
         margin: 12px 10px 0 0;
+    }
+}
+.page {
+    &-wrapper {
+        margin-top: 10em;
+    }
+    & {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+}
+.contacts {
+    &-block {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    &-item {
+        margin-right: 35px;
+    }
+    &-item:last-child {
+        margin-right: 0;
     }
 }
 @media (max-width: 1010px) {
